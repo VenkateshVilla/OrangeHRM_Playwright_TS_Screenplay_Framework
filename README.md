@@ -1,0 +1,1 @@
+Enterprise Screenplay Pattern Framework for OrangeHRM with Playwright, Allure, Fixtures, Hooks, Environment Management, Data Driven Tests and CI/CD starter.

@@ -1,0 +1,1 @@
+import {test} from "@playwright/test";import {Login} from "../src/tasks/login/Login";import {Displayed} from "../src/questions/Displayed";import data from "../src/data/testdata.json"; test("OrangeHRM Login",async({page})=>{await page.goto("/auth/login");await Login.as(page,data.admin.username,data.admin.password);await Displayed.dashboard(page);});

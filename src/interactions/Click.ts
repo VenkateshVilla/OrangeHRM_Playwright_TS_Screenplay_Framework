@@ -1,0 +1,1 @@
+export const Click={on: async(page:any,locator:string)=>page.locator(locator).click()};

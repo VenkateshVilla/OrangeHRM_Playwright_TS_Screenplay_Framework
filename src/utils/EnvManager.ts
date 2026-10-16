@@ -1,0 +1,1 @@
+import * as dotenv from "dotenv"; dotenv.config({path:`.env.${process.env.TEST_ENV||"qa"}`}); export const EnvManager={getUsername:()=>process.env.USERNAME||"",getPassword:()=>process.env.PASSWORD||""};

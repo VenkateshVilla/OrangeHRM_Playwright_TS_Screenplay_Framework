@@ -1,0 +1,1 @@
+import {expect} from "@playwright/test"; export class Displayed{static async dashboard(page:any){await expect(page.locator("h6")).toContainText("Dashboard")}}

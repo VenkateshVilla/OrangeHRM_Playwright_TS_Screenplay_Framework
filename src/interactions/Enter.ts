@@ -1,0 +1,1 @@
+export const Enter={text: async(page:any,locator:string,value:string)=>page.locator(locator).fill(value)};

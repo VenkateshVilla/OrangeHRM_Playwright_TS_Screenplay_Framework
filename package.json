@@ -1,0 +1,4 @@
+{
+"name":"orangehrm-enterprise-screenplay",
+"scripts":{"test":"playwright test","test:qa":"cross-env TEST_ENV=qa playwright test","allure:generate":"allure generate allure-results --clean -o allure-report","allure:open":"allure open allure-report"},
+"devDependencies":{"@playwright/test":"^1.55.0","allure-playwright":"^3.0.0","cross-env":"^7.0.3","dotenv":"^16.0.0"}}

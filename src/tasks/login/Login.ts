@@ -1,0 +1,1 @@
+import {Enter} from "../../interactions/Enter";import {Click} from "../../interactions/Click";import {LoginTargets} from "../../targets/LoginTargets";export class Login{static async as(page:any,u:string,p:string){await Enter.text(page,LoginTargets.username,u);await Enter.text(page,LoginTargets.password,p);await Click.on(page,LoginTargets.loginButton);}}
